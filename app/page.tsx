@@ -49,7 +49,7 @@ export default function Home() {
       {loading && <div className={styles.loader}>加载中...</div>}
       
       <footer className={styles.footer}>
-        数据来源: <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">Open-Meteo API</a>
+        数据来源: <a href="https://openweathermap.org/" target="_blank" rel="noopener noreferrer">OpenWeatherMap API</a>
       </footer>
     </main>
   );

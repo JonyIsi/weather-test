@@ -125,6 +125,29 @@
   margin: 0.5rem 0 0 0;
 }
 
+.weatherDescription {
+  font-size: 1rem;
+  color: #555;
+  margin: 0.5rem 0 0 0;
+  text-transform: capitalize;
+}
+
+.forecastDescription {
+  font-size: 0.8rem;
+  color: #666;
+  margin: 0.3rem 0 0 0;
+  text-transform: capitalize;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100px;
+}
+
+.weatherIcon img, .forecastIcon img {
+  display: block;
+}
+
 @media (max-width: 768px) {
   .card {
     padding: 1.5rem;
